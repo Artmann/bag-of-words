@@ -2,7 +2,6 @@ import { ReactElement, useState } from 'react';
 import GameOverScreen from './game-over-screen';
 import GameScreen from './game-screen';
 
-import Timer from './timer';
 import { getWordsInRandomOrder, Word } from './words';
 
 export type Option = {
